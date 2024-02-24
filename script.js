@@ -1,4 +1,4 @@
-//smooth scroll
+// smooth scroll
 const lenis = new Lenis()
 
 lenis.on('scroll', (e) => {
