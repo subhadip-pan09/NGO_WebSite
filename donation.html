@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/donation.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>BILLING ADDRESS</h3>
+            <form onsubmit="emailSend(); reset(); return false;">
+                Full Name
+                <input type="text" id="name" placeholder="Enter your name" required>
+                Phone number
+                <input type="text" id="phonenumber" placeholder="Enter your phone number" required>
+                Address
+                <input type="text" id="address" placeholder="Enter your address" required>
+                Village/City
+                <input type="text" id="villageorcityname" placeholder="Enter your village/city name" required>
+                Email Id
+                <input type="text" id="email" placeholder="Enter your email id" required>
+                Payment Amount
+                <input type="text" id="amount" placeholder="Enter your payment amount" required>
+                <button type="submit">Payment Done</button>
+            </form>
+        </div>
+        <div class="right">
+            <h3>PAYMENT</h3>
+            <div class="qrcode">
+                <img src="images/logo4.png" alt="Qr Code">
+                <p> UPI ID:- 9609964300@ybl </p>
+                <img src="images/BANKDETAILS.jpg" alt="Bank Details">
+            </div>
+        </div>
+</body>
+</html>
