@@ -14,19 +14,19 @@
     <div class="container">
         <div class="left">
             <h3>BILLING ADDRESS</h3>
-            <form onsubmit="emailSend(); reset(); return false;">
+            <form action="connect.php" method="post">
                 Full Name
-                <input type="text" id="name" placeholder="Enter your name" required>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
                 Phone number
-                <input type="text" id="phonenumber" placeholder="Enter your phone number" required>
+                <input type="text" id="phonenumber" name="phonenumber" placeholder="Enter your phone number" required>
                 Address
-                <input type="text" id="address" placeholder="Enter your address" required>
+                <input type="text" id="address" name="address" placeholder="Enter your address" required>
                 Village/City
-                <input type="text" id="villageorcityname" placeholder="Enter your village/city name" required>
+                <input type="text" id="villageorcityname" name="villageorcityname" placeholder="Enter your village/city name" required>
                 Email Id
-                <input type="text" id="email" placeholder="Enter your email id" required>
+                <input type="text" id="email" name="email" placeholder="Enter your email id" required>
                 Payment Amount
-                <input type="text" id="amount" placeholder="Enter your payment amount" required>
+                <input type="text" id="amount" name="amount" placeholder="Enter your payment amount" required>
                 <button type="submit">Payment Done</button>
             </form>
         </div>

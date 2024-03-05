@@ -332,13 +332,13 @@ header nav ul li a:hover {
 
 /* eductaion section start */
 
-.education {
+.distribution {
     height: 100vh;
     overflow: hidden;
     position: relative;
 }
 
-.education .videoPlayer {
+.distribution .videoPlayer {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -346,12 +346,12 @@ header nav ul li a:hover {
     transform: translate(-50%, -50%);
 }
 
-.education .sectionTitle {
+.distribution .sectionTitle {
     color: #fff;
     text-shadow: 0 0 4px #000;
 }
 
-.education .educationContainer {
+.distribution .distributionContainer {
     position: absolute;
     background-color: #00000096;
     width: 600px;
@@ -361,19 +361,19 @@ header nav ul li a:hover {
     padding: 30px;
 }
 
-.education .educationContainer h3 {
+.distribution .distributionContainer h3 {
     font-size: 35px;
     font-weight: 300;
 
 }
 
-.education .educationContainer p {
+.distribution .distributionContainer p {
     font-size: 15px;
     line-height: 20px;
     margin: 10px 0 30px;
 }
 
-.education .educationContainer button {
+.distribution .distributionContainer button {
     background-color: var(--themeRed);
     border: 0;
     color: #fff;
